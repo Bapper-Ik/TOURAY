@@ -27,7 +27,7 @@ MEDIA_URL = ''
 SECRET_KEY = "django-insecure-4gb9(_kndmgywco4x9sh-+jb2nu08mdh-%6k5ajqbzomti0)0b"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['web-production-e496.up.railway.app']
 
@@ -90,8 +90,6 @@ DATABASES = {
         'PORT': '5432'
     }
 }
-
-DATABASES['default'] = dj_database_url.config()
 
 
 # Password validation
