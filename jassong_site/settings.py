@@ -27,9 +27,9 @@ MEDIA_URL = ''
 SECRET_KEY = "django-insecure-4gb9(_kndmgywco4x9sh-+jb2nu08mdh-%6k5ajqbzomti0)0b"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['web-production-e496.up.railway.app']
 
 
 # Application definition
